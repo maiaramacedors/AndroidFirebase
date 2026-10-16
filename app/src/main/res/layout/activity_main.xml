@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Produtos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/edtNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do produto"
+        android:inputType="textCapSentences"/>
+
+    <EditText
+        android:id="@+id/edtPrecoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço do produto"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnAtualizarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ATUALIZAR PRODUTO"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnExcluirProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXCLUIR PRODUTO"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:id="@+id/btnConsultarProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAR PRODUTOS"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/txtListaProdutos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Os produtos aparecerão aqui."
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"/>
+
+
+    <Button
+        android:id="@+id/btnSalvarProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR PRODUTO"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
